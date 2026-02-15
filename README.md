@@ -91,9 +91,10 @@ Each day's folder contains both the solution code and the puzzle input together.
 ## Next Steps
 
 After Day 1:
-1. Create a new folder `day02/` following the same pattern
-2. Add `day02/solution.py` and `day02/input.txt`
-3. Keep going through the days!
+1. Create a new folder `day02/` 
+2. Copy `day01/solution.py` to `day02/solution.py` and update the comments
+3. Create `day02/input.txt` for your Day 2 puzzle input
+4. Keep going through the days!
 
 ## Learning Resources
 
