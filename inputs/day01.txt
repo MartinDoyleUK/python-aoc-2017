@@ -1,0 +1,3 @@
+# Paste your Day 1 puzzle input here
+# Get it from: https://adventofcode.com/2017/day/1/input
+# (You need to be logged in to Advent of Code)
