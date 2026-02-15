@@ -4,7 +4,7 @@ https://adventofcode.com/2017/day/1
 
 TODO: Read the problem on the website above, then solve it here!
 
-The puzzle input is in: ../inputs/day01.txt
+The puzzle input is in: input.txt (in this same folder)
 """
 
 # Part 1: Your solution goes here!
@@ -44,7 +44,7 @@ def solve_part2(puzzle_input):
 # Main execution
 if __name__ == "__main__":
     # Read the puzzle input
-    with open("../inputs/day01.txt", "r") as f:
+    with open("input.txt", "r") as f:
         puzzle_input = f.read().strip()
     
     # Solve and print answers

@@ -6,7 +6,9 @@ Welcome! This is a super simple project to learn Python from scratch using [Adve
 
 You need Python installed on your computer. That's it!
 
-### Check if Python is installed
+### Step 1: Check if Python is Installed
+
+Open your terminal or command prompt and type:
 
 ```bash
 python --version
@@ -14,24 +16,84 @@ python --version
 python3 --version
 ```
 
-If you don't have Python, download it from [python.org](https://www.python.org/downloads/).
+You should see something like `Python 3.x.x`. If not, download Python from [python.org](https://www.python.org/downloads/).
 
-## How to Use This Project
+### Step 2: Get Your Puzzle Input
 
-1. Each day has its own folder (day01, day02, etc.)
-2. Put your puzzle input in the `inputs` folder
-3. Write your solution in the day's Python file
-4. Run your solution from the command line
+1. Go to [Advent of Code 2017 Day 1](https://adventofcode.com/2017/day/1)
+2. Read the problem description
+3. Log in (you can use GitHub, Google, etc.)
+4. Copy your personal puzzle input
+5. Paste it into `day01/input.txt`
 
-### Example: Day 1
+### Step 3: Understand the Template
+
+Open `day01/solution.py` and you'll see:
+
+- **solve_part1()**: This is where you write your solution
+- **if __name__ == "__main__"**: This runs when you execute the file
+- Comments with TODO: These tell you what to do
+
+### Step 4: Write Your First Solution
+
+You'll learn:
+- How to read files in Python
+- How to work with strings and numbers
+- How to use loops and conditionals
+- How to write functions
+
+**Don't worry about being perfect!** The goal is to learn.
+
+### Step 5: Run Your Code
 
 ```bash
-# Run your solution
-python day01/solution.py
-
-# Or on some systems:
-python3 day01/solution.py
+cd day01
+python solution.py
 ```
+
+Or from the project root:
+
+```bash
+python day01/solution.py
+```
+
+## Project Structure
+
+```
+.
+├── day01/
+│   ├── solution.py    # Your solution code
+│   └── input.txt      # Your puzzle input
+└── README.md
+```
+
+Each day's folder contains both the solution code and the puzzle input together.
+
+## Tips for Success
+
+- **Start Simple**: Get something working, then improve it
+- **Test with Examples**: The problem usually has example inputs
+- **Use print() to Debug**: See what's happening in your code
+- **Ask for Help**: Use Claude in VSCode to explain concepts
+- **Google is Your Friend**: "How to loop through string in Python"
+- **Break Problems Down**: Solve small parts first
+
+## Common Python Concepts You'll Learn
+
+- **Variables**: `x = 10`
+- **Strings**: `text = "hello"`
+- **Loops**: `for char in text:`
+- **Conditionals**: `if x > 5:`
+- **Functions**: `def my_function():`
+- **Lists**: `numbers = [1, 2, 3]`
+- **File I/O**: `with open("file.txt") as f:`
+
+## Next Steps
+
+After Day 1:
+1. Create a new folder `day02/` following the same pattern
+2. Add `day02/solution.py` and `day02/input.txt`
+3. Keep going through the days!
 
 ## Learning Resources
 
@@ -39,26 +101,4 @@ python3 day01/solution.py
 - [Advent of Code 2017](https://adventofcode.com/2017)
 - Ask Claude in VSCode for help!
 
-## Project Structure
-
-```
-.
-├── day01/
-│   └── solution.py      # Your solution code
-├── day02/
-│   └── solution.py
-├── inputs/
-│   ├── day01.txt        # Puzzle inputs
-│   └── day02.txt
-└── README.md
-```
-
-## Tips
-
-- Start with Day 1 and work your way forward
-- Don't worry about making it perfect - just make it work!
-- Read the problem carefully
-- Test with the example inputs first
-- Use print() to debug and see what's happening
-
-Have fun learning Python! 🐍
+Remember: **Everyone was a beginner once.** You've got this! 🐍💪
