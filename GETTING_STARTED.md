@@ -82,8 +82,8 @@ def solve_part1(puzzle_input):
 ## Next Steps
 
 After Day 1:
-1. Copy `day01/solution.py` to `day02/solution.py` structure
-2. Or just edit the existing `day02/solution.py`
+1. Move on to Day 2 - `day02/solution.py` follows the same structure
+2. For Day 3 and beyond, create new folders like `day03/` following the same pattern
 3. Keep going through the days!
 
 Remember: **Everyone was a beginner once.** You've got this! 💪
